@@ -7,21 +7,21 @@ public class salarioneto {
         int valorhora,horastrabajadas,salarioneto;
         double salariototal, retefuente;
         
-        System.out.println("ingrese el valor de la hora");
+        System.out.print("Ingrese el valor de la hora: $");
         valorhora =teclado.nextInt();
         
-        System.out.println("ingrese la cantidad de horas trabajadas");
+        System.out.print("Ingrese la cantidad de horas trabajadas: ");
         horastrabajadas =teclado.nextInt();
         
         
         salarioneto =horastrabajadas*valorhora;
-        System.out.println("el salario neto es:" + salarioneto);
+        System.out.println("El salario neto es: $" + salarioneto);
         
         retefuente =salarioneto*0.05;
-        System.out.println("la retencion en la fuente es:"+ retefuente);
+        System.out.println("La retencion en la fuente es: $"+ retefuente);
         
         salariototal =salarioneto-retefuente;
-        System.out.println("el salario total es:" + salariototal);
+        System.out.println("El salario total es: $" + salariototal);
         
     
     }
